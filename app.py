@@ -53,8 +53,6 @@ otomatik olarak temizler ve analize hazır hale getirir.
 # Ayırıcı çizgi
 st.divider()
 
-# Placeholder - sonraki adımlarda doldurulacak
-st.info("🚧 Dosya yükleme alanı yakında eklenecek...")
 
 st.subheader("1) Dosya Yükle")
 uploaded = st.file_uploader("Bekleyenler.xlsx dosyasını seçin", type=["xlsx"])
